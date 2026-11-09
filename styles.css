@@ -1,0 +1,31 @@
+* {
+    font-family: "Gruppo", sans-serif;
+}
+li{
+    color: rgb(34,11,84);
+}
+
+p{
+    color: #38c795;
+}
+/*The universal selector or * is used to reset styles that apply to the root element. */
+
+/* Comments in CSS - Shortcut: CTRL + / or CMD + / */ 
+
+/* Due to inheritance, all elements nested inside the body will take on the color/font properties, excluding spacing properties. */
+
+
+
+/* when a selector that is more specific it will override inherited styles. */
+
+
+body  { 
+    background-color:pink; 
+    color: white;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+a {
+    text-decoration: underline;
+} 
+

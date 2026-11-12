@@ -32,6 +32,9 @@ body  {
     font-size: 20px;
     background-image:url(./media/IMG_1623.jpeg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: darkblue;
     border-block-end-style: 3px solid black;
 }
 element .banner {

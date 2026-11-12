@@ -7,6 +7,8 @@ li{
 
 p{
     color: #38c795;
+    margin: 0;
+
 }
 /*The universal selector or * is used to reset styles that apply to the root element. */
 
@@ -28,4 +30,17 @@ body  {
 a {
     text-decoration: underline;
 } 
-
+header {
+    background-color: bisque; 
+    padding: 20px;
+    /* 2 values: 1 - top&bottom, 2nd - right&left */
+    padding: 30px 50px;
+    /* 3 values 1st - Top, 2nd - Right&left, 3rd - bottom */
+    padding: 10px 45px 100px;
+    /* 4 values: in order TRBL. Goes clocklwise for the target */
+    padding: 75Px 25px 0 15px;
+    margin-bottom: 20px; 
+}
+main {
+    background-color: lightgray;
+}

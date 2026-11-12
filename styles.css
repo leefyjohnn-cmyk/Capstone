@@ -15,20 +15,30 @@ p{
 /* Comments in CSS - Shortcut: CTRL + / or CMD + / */ 
 
 /* Due to inheritance, all elements nested inside the body will take on the color/font properties, excluding spacing properties. */
-
+ .centre {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            border: 3px solid green;
+        }
 
 
 /* when a selector that is more specific it will override inherited styles. */
-
-
 body  { 
     background-color:pink; 
     color: white;
     font-family: Helvetica;
     font-size: 14px;
+    background-image:url(./media/IMG_1623.jpeg);
+    background-repeat: no-repeat;
+}
+element .banner {
+    border: 100px solid black;
+    padding:30s0px;
 }
 a {
-    text-decoration: underline;
+    text-decoration: underline;s
 } 
 header {
     background-color: bisque; 
@@ -39,8 +49,13 @@ header {
     padding: 10px 45px 100px;
     /* 4 values: in order TRBL. Goes clocklwise for the target */
     padding: 75Px 25px 0 15px;
+    /* This is long hand way of writing margin and also padding */
     margin-bottom: 20px; 
-}
+    background-image: url("./media/IMG_1623.jpeg");
+    width: 200px;
+    height: 200px;px;
+} 
 main {
     background-color: lightgray;
+    border-top: 4px dotted orange; 
 }

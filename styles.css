@@ -2,14 +2,15 @@
     font-family: "Gruppo", sans-serif;
 }
 li{
-    color: rgb(34,11,84);
+    color: rgb(139, 113, 191);
 }
 
 p{
-    color: #38c795;
-    margin: 0;
-
+    color: #28d398;
+    margin: 400;
 }
+}
+.beach-image: 
 /*The universal selector or * is used to reset styles that apply to the root element. */
 
 /* Comments in CSS - Shortcut: CTRL + / or CMD + / */ 
@@ -37,9 +38,17 @@ body  {
     background-color: darkblue;
     border-block-end-style: 3px solid black;
 }
-element .banner {
+styled-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #333;
+    display: block;
+element 
+.banner {
     border: 100px solid black;
-    padding:30s0px;
+    padding:30px;
 }
 a {
     text-decoration: underline;s
@@ -56,8 +65,8 @@ header {
     /* This is long hand way of writing margin and also padding */
     margin-bottom: 20px; 
     background-image: url("./media/IMG_1623.jpeg");
-    width: 200px;
-    height: 200px;px;
+    width: 1000px;
+    height: 200px;
 } 
 main {
     background-color: lightgray;

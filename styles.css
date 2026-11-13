@@ -9,8 +9,6 @@ p{
     color: #28d398;
     margin: 400;
 }
-}
-.beach-image: 
 /*The universal selector or * is used to reset styles that apply to the root element. */
 
 /* Comments in CSS - Shortcut: CTRL + / or CMD + / */ 
@@ -26,7 +24,6 @@ p{
 
 
 /* when a selector that is more specific it will override inherited styles. */
-body  { 
     background-color:pink; 
     color: white;
     font-family: Helvetica;
@@ -45,8 +42,7 @@ styled-image {
     border-radius: 12px;
     border: 2px solid #333;
     display: block;
-element 
-.banner {
+element .banner {
     border: 100px solid black;
     padding:30px;
 }
@@ -65,8 +61,8 @@ header {
     /* This is long hand way of writing margin and also padding */
     margin-bottom: 20px; 
     background-image: url("./media/IMG_1623.jpeg");
-    width: 1000px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 } 
 main {
     background-color: lightgray;
